@@ -7,13 +7,32 @@
 }
 
 body {
+    background-color: #110040;
+    color: #3e8fe6;
     height: 100vh;
 }
 
 .flex-start {
+    background-color: #220080;
+    border-radius: 15px;
     border: 10px solid #3e8fe6;
     height: 70%;
     width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.flex-start.hidden {
+    display: none;
+}
+
+.flex-start-box {
+    background-color: #459fff;
+    border-radius: 15px;
+    border: 10px solid #110040;
+    height: 68%;
+    width: 27%;
 }
 
 .flex-start-mode {
