@@ -14,7 +14,7 @@ body {
 
 .flex-start {
     background-color: #220080;
-    border-radius: 15px;
+    border-radius: 100px;
     border: 10px solid #3e8fe6;
     height: 70%;
     width: 98%;
@@ -23,13 +23,33 @@ body {
     align-items: center; 
 }
 
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
 .flex-start.hidden {
     display: none;
 }
 
 .flex-start-box {
     background-color: #459fff;
-    border-radius: 15px;
+    border-radius: 1000px;
     border: 10px solid #110040;
     height: 68%;
     width: 27%;
